@@ -1,0 +1,186 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    margin-top: 400px;
+    display: flex;
+    height: 630px;
+    width: 630px;
+    border: 8px rgba(110, 186, 253, 0.836);
+    background-color: #f5f5f5;
+    border-style: solid;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-style: none;
+    height: 320px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 7px rgba(0, 0, 0, 0.3);
+}
+.profile-font1 {
+    font-size: 0.7cm;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 15px;
+    text-align: center;
+}
+.profile-font2 {
+    display: flex;
+    margin-left: 15px;
+    font-size: 0.4cm;
+}
+.profile-font3 {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 0.3cm;
+}
+.profile-svg {
+    display: flex;
+    flex-direction: row;
+}
+.profile-svg-facebook {
+    display: flex;
+    margin-left: 11px;
+    margin-top: 5px;
+}
+.facebook {
+    height: 30px;
+    width: 30px;
+}
+.profile-svg-linkedin {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.linkedin {
+    height: 30px;
+    width: 30px;
+}
+.profile-svg-instagram {
+    display: flex;
+    margin-top: 7px;
+    margin-left: 3px;
+}
+.instagram {
+    height: 25px;
+    width: 25px;
+}
+
+.profile-button {
+    display: flex;
+    flex-direction: row;
+}
+.profile-button1 {
+    margin-left: 11px;
+    margin-top: 5px;
+}
+
+.view-resume {
+    background-color: #000;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+.view-resume:active {
+    background-color: #7b0000ec;
+    transform: scale(0.95);
+}
+.resume-arrow {
+    font-size: 13px;
+}
+.profile-button2 {
+    margin-left: 11px;
+    margin-top: 5px;
+}
+.github {
+    background-color: #000;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.github:active {
+    background-color: #7b0000ec;
+    transform: scale(0.95);
+}
+.github-arrow {
+    font-size: 17px;
+}
+.profile-picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.skills {
+    border: 6px white;
+    border-style: solid;
+    height: 280px;
+    width: 300px;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 7px rgba(0, 0, 0, 0.3);
+}
+.skills-font1 {
+    position: absolute;
+    font-size: 0.5cm;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+.skills-img {
+    position: top;
+    height: 280px;
+    width: 290px;
+    border-radius: 20px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.experience {
+    border: 2px black;
+    border-style: solid;
+    height: 150px;
+    width: 293px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 7px rgba(0, 0, 0, 0.3);
+}
+.projects {
+    margin-top: 25px;
+    border: 2px black;
+    border-style: solid;
+    height: 450px;
+    width: 293px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 7px rgba(0, 0, 0, 0.3);
+}
