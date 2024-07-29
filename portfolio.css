@@ -7,7 +7,7 @@ body {
     margin-top: 400px;
     display: flex;
     height: 630px;
-    width: 630px;
+    width: 650px;
     border: 8px rgba(110, 186, 253, 0.836);
     background-color: #f5f5f5;
     border-style: solid;
@@ -51,6 +51,7 @@ body {
 .profile-svg {
     display: flex;
     flex-direction: row;
+    margin-left: 90px;
 }
 .profile-svg-facebook {
     display: flex;
@@ -76,13 +77,15 @@ body {
     margin-left: 3px;
 }
 .instagram {
-    height: 25px;
-    width: 25px;
+    margin-top: 2px;
+    height: 24px;
+    width: 24px;
 }
 
 .profile-button {
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
 }
 .profile-button1 {
     margin-left: 11px;
@@ -138,11 +141,11 @@ body {
     margin-top: 40px;
 }
 .skills {
-    border: 6px white;
-    border-style: solid;
+    border: none;
+    border-style: none;
     height: 280px;
     width: 300px;
-    margin-top: 25px;
+    margin-top: 15px;
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 10px 7px rgba(0, 0, 0, 0.3);
@@ -163,24 +166,119 @@ body {
 .right {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .experience {
-    border: 2px black;
-    border-style: solid;
-    height: 150px;
-    width: 293px;
-    background-color: #ff0000;
+    border: none;
+    border-style: none;
+    height: 200px;
+    width: 325px;
+    background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 10px 7px rgba(0, 0, 0, 0.3);
 }
+.experience-text1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 0.5cm;
+}
+.experience-text2 {
+    font-size: 0.3cm;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.experience-img-row1 {
+    display: flex;
+    flex-direction: row;
+}
+.experience-text3 {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.experience-text-row1 {
+    display: flex;
+    flex-direction: row;
+}
+.experience-text4 {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 0.3cm;
+}
+.experience-coop {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+    height: 15px;
+    width: 40px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #000;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.experience-img-row1-ministry-of-public-and-business-service-delivery{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.experience-text5 {
+    font-size: 0.3cm;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.experience-img-row2 {
+    display: flex;
+    flex-direction: row;
+}
+.experience-img-row2-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #D7E039;
+    margin-left: 120px;
+}
+.experience-centennial-college-img {
+    border-radius: 4px;
+    /* margin-top: 15px; */
+    width: 40px;
+    height: 13px;
+}
+.experience-text6 {
+    margin-top: 3px;
+    margin-left: 15px;
+}
+.experience-text-row2 {
+    display: flex;
+    flex-direction: row;
+}
+.experience-text7 {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 0.3cm;
+}
+.experience-parttime {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+    height: 15px;
+    width: 60px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #000;
+    margin-left: 20px;
+    margin-top: 2px;
+}
 .projects {
-    margin-top: 25px;
-    border: 2px black;
-    border-style: solid;
-    height: 450px;
-    width: 293px;
-    background-color: #ff0000;
+    margin-top: 15px;
+    border: none;
+    border-style: none;
+    height: 400px;
+    width: 325px;
+    background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 10px 7px rgba(0, 0, 0, 0.3);
 }
